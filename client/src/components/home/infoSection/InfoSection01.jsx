@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useRef, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const InfoSection = () => {
+const InfoSection01 = () => {
 
     // scroll effect
 
@@ -71,4 +71,4 @@ const InfoSection = () => {
     )
 }
 
-export default InfoSection;
+export default InfoSection01;

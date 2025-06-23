@@ -6,7 +6,7 @@ import ServiceSection from './serviceSection/ServiceSection';
 import SectorsServiceSection from './sectorsServiceSection/SectorsServiceSection';
 import BlogsSection from './blogsSection/BlogsSection';
 import CustomerTestimonialsSection from './customerTestimonialsSection/CustomerTestimonialsSection';
-import ContactForm from './contactForm/contactForm';
+import ContactForm from './contactForm/ContactForm';
 import FooterSection from '../globalComponents/footerSection/FooterSection';
 
 const Home = () => {

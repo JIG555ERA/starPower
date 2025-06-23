@@ -7,7 +7,7 @@ import menuRightArrowIcon from '../../../assets/icons/menuRightArrowIcon.svg'
 import menuDownArrowIcon from '../../../assets/icons/menuDownArrowIcon.svg'
 
 
-const Navbar = ({active='/'}) => {
+const Navbar = ({active=''}) => {
     const navItems = [
         { id: 'home', page: 'Home', link: '/' },
         { id: 'about', page: 'About', link: '/about' },
@@ -89,11 +89,11 @@ const Navbar = ({active='/'}) => {
 
             {/* Slide-in Menu on Mobile */}
             <div
-                className={`fixed top-0 left-0 h-full w-[300px] bg-[#0A142F] z-50 transform transition-transform duration-500 ${
+                className={`fixed top-0 left-0 h-full w-[350px] bg-[#0A142F] z-50 transform transition-transform duration-500 ${
                     isActive ? 'translate-x-0' : '-translate-x-full'
                 }`}
             >
-                <div className="flex justify-between items-center p-4">
+                <div className="flex justify-between items-center p-[40px]">
                     <img
                         src={starPowerFooter}
                         alt="Footer Logo"
@@ -128,7 +128,7 @@ const Navbar = ({active='/'}) => {
                         </a>
                     ))}
                     </nav> */}
-                    <nav className="flex flex-col py-6 space-y-4">
+                    <nav className="flex flex-col space-y-4">
                     {menuItems.map((item) =>
                         !item.subItems ? (
                         <a
@@ -138,7 +138,7 @@ const Navbar = ({active='/'}) => {
                             setActivePage(item.id);
                             toggleMenu(); // Close menu
                             }}
-                            className={`relative flex items-center text-white text-[16px] font-medium hover:text-gray-300 transition px-3 py-2 rounded-md ${
+                            className={`relative flex items-center text-white text-[16px] font-medium px-[40px] hover:text-gray-300 transition  py-2 rounded-md ${
                             activePage === item.id ? 'bg-white/30' : ''
                             }`}
                         >
@@ -151,7 +151,7 @@ const Navbar = ({active='/'}) => {
                         <div key={item.id}>
                             <div
                             onClick={toggleServices}
-                            className="flex justify-between items-center text-white text-[16px] font-medium cursor-pointer px-3 py-2 rounded-md"
+                            className="flex justify-between items-center px-[40px] text-white text-[16px] font-medium cursor-pointer py-2 rounded-md"
                             >
                             {item.page}
                             {isServicesOpen ? (
@@ -173,7 +173,7 @@ const Navbar = ({active='/'}) => {
                                     setActivePage(sub.id);
                                     toggleMenu();
                                     }}
-                                    className={`relative flex items-center text-white text-sm hover:text-gray-300 px-3 py-2 rounded-md ${
+                                    className={`relative flex items-center text-white text-sm hover:text-gray-300 px-[40px] py-2 rounded-md ${
                                     activePage === sub.id ? 'bg-white/30' : ''
                                     }`}
                                 >
@@ -192,7 +192,7 @@ const Navbar = ({active='/'}) => {
 
                     {/* contact info */}
                     <div
-                    className='flex flex-col p-4 space-y-4'>
+                    className='flex flex-col p-[40px] space-y-4'>
                         <h1
                         className='text-[24px] font-semibold text-white'>
                             Contact Us

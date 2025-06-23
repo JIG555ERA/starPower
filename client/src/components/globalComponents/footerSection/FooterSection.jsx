@@ -30,9 +30,9 @@ const FooterSection = () => {
         <div
         className='w-full h-[500px] bg-[#0A142F]'>
             <div
-            className='w-[1250px] h-[350px] mx-auto my-[40px] grid grid-cols-4 gap-[12.5px] mt-[20px]'>
+            className='w-[1250px] h-[350px] mx-auto grid grid-cols-4 gap-[12.5px] mt-[80px]'>
                 <div
-                className='w-[300px] h-full flex flex-col justify-center'>
+                className='w-[300px] h-full flex flex-col '>
                     {/* logo */}
                     <img 
                     className='w-[110px] h-[60px]'
@@ -62,16 +62,16 @@ const FooterSection = () => {
                     </div>
                 </div>
                 <div
-                className='w-[300px] h-full flex flex-col justify-center gap-[20px]'>
-                    <p className='text-white text-[12px] font-semibold'>GET IN TOUCH <span className='text-red-500'>.</span></p>
+                className='w-[300px] h-full flex flex-col gap-[20px]'>
+                    <p className='text-white text-[16px] font-semibold'>GET IN TOUCH <span className='text-red-500'>.</span></p>
 
-                    <p className='text-white text-[12px] font-semibold'>Hyderabad, India</p>
+                    <p className='text-white text-[14px] font-semibold'>Hyderabad, India</p>
 
                     <div
                     className='flex'>
                         <img className='mb-[45px]' src={locationIcon} alt="" />
                         <p
-                        className='text-white font-light ml-[10px] text-[12px] mr-[60px]'>
+                        className='text-[#9DA1AC] font-light ml-[10px] text-[14px] mr-[60px]'>
                             8-2-602/D, Opposite Hanging Garden Road No.-10, Banjara Hills, HYD - 500034
                         </p>
                     </div>
@@ -80,38 +80,38 @@ const FooterSection = () => {
                     className='flex'>
                         <img className='' src={mailIcon} alt="" />
                         <p
-                        className='text-white font-light ml-[10px] text-[12px] mr-[60px]'>
+                        className='text-[#9DA1AC] font-light ml-[10px] text-[14px] mr-[60px]'>
                             mktg.hyd@startradex.com
                         </p>
                     </div>
                 </div>
                 <div
-                className='w-[300px] h-full flex flex-col justify-center'>
-                    <p className='text-white text-[12px] font-semibold'>Services<span className='text-red-500'>.</span></p>
+                className='w-[300px] h-full flex flex-col '>
+                    <p className='text-white text-[16px] font-semibold'>Services<span className='text-red-500'>.</span></p>
 
                     {servicesContext.map((service) => (
                         <p
                         key={service}
-                        className='text-white text-[12px] font-normal mt-[10px]'>
+                        className='text-[#9DA1AC] text-[14px] font-normal mt-[10px]'>
                             {service}
                         </p>
                     ))}
                 </div>
                 <div
-                className='w-[300px] h-full flex flex-col justify-center'>
-                    <p className='text-white text-[12px] font-semibold'>Quick Link<span className='text-red-500'>.</span></p>
+                className='w-[300px] h-full flex flex-col '>
+                    <p className='text-white text-[16px] font-semibold'>Quick Link<span className='text-red-500'>.</span></p>
 
                     {quickLinkContext.map((link) => (
                         <p
                         key={link.id}
-                        className='text-white text-[12px] font-normal mt-[10px]'>
+                        className='text-[#9DA1AC] text-[14px] font-normal mt-[10px]'>
                             <a href={link.link}>{link.id}</a>
                         </p>
                     ))}
                 </div>
 
             </div>
-            <hr className='text-gray-300 mx-[80px] translate-y-[-60px]'/>
+            <hr className='border-t border-[#D9D9D9] mx-[80px] translate-y-[-60px]'/>
             <div
             className='flex justify-center items center mx-auto gap-[20px] pb-[50px]'>
                 <FaFacebookF className='w-[25px] h-[25px] text-white'/>

@@ -49,7 +49,7 @@ const SectorsServiceSection = () => {
             <div
             className='justify-center items-center w-full flex'>
                 <h1
-                className='text-[48px] font-semibold'>
+                className='text-[38px] font-semibold'>
                     Sectors We Serve
                 </h1>
             </div>
@@ -107,6 +107,7 @@ const SectorsServiceSection = () => {
                     </div>
                     
                     <a 
+                    className='group'
                     href={''}>
                         <div
                         className='transition-all duration-1200 ease-out w-[275px] h-[60px] bg-[#082F70] flex'>
@@ -116,7 +117,7 @@ const SectorsServiceSection = () => {
                                 className='text-white text-[15px] font-bold mr-[8px]'>
                                     EXPLORE OUR EXPERTISE
                                 </p>
-                                <ArrowRight className='w-[24px] h-[24px] text-white font-semibold hover:rotate-[-24deg] duration-200'/>
+                                <ArrowRight className='w-[24px] h-[24px] text-white font-semibold group-hover:rotate-[-24deg] duration-100'/>
                             </div>
                         </div>
                     </a>

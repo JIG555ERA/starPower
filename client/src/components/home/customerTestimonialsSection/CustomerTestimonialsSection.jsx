@@ -43,7 +43,7 @@ const CustomerTestimonialsSection = ({ deviceType = "desktop" }) => {
     <section className="w-full px-4 md:px-12 lg:px-20 my-20 text-[#121212]">
       {/* Section Title */}
       <div className="text-center mb-12">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold">
+        <h1 className="text-[38px] font-semibold">
           Customer Testimonials
         </h1>
       </div>

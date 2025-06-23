@@ -18,7 +18,7 @@ const BlogsSection = () => {
             <div
             className='flex justify-center'>
                 <h1
-                className='text-[48px] font-semibold'>
+                className='text-[38px] font-semibold'>
                     Blogs
                 </h1>
             </div>
@@ -27,11 +27,11 @@ const BlogsSection = () => {
                 {blogsContext.map((blog, index, array) => (
                     <div
                     key={blog.id}
-                    className='w-[380px] h-[600px] flex flex-col'>
+                    className='w-[380px] h-[600px] flex flex-col group'>
                         <div
                         className='w-full h-[345px] overflow-hidden'>
                             <img 
-                            className='w-full h-fit hover:scale-150 ease-in-out duration-700'
+                            className='w-full h-fit group-hover:scale-150 ease-in-out duration-700'
                             src={blog.img} alt="" />
                             <div
                             className='absolute z-20 w-[85px] h-[75px] bg-[#F35F24] flex flex-col justify-center items-center translate-x-[275px] translate-y-[-50px]'>
@@ -58,7 +58,7 @@ const BlogsSection = () => {
                                 </u>
                             </div>
                             <div
-                            className='text-[#121212] text-[20px] font-semibold pr-[100px] w-[full] h-[120px]'>
+                            className='text-[#121212] text-[20px] font-semibold pr-[100px] w-[full] h-[120px] group-hover:text-[#E34147]'>
                                 {blog.head}
                             </div>
                             <hr />

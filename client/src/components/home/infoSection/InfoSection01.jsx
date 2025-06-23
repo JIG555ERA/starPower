@@ -36,7 +36,7 @@ const InfoSection01 = () => {
             <div
             className=''>
                 <h1
-                className={`transition-all duration-1200 ease-out text-[48px] font-bold transform ${
+                className={`transition-all duration-1200 ease-out text-[38px] font-bold transform leading-tight ${
                     isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-25"
                 }`}>
                     Engineering Efficiency Building The Future
@@ -45,12 +45,13 @@ const InfoSection01 = () => {
             <div
             className=''>
                 <p
-                className={`transition-all duration-1200 ease-out text-[18px] font-normal transform ${
+                className={`transition-all duration-1200 ease-out text-[16px] font-normal text-[#2F2F2F] transform ${
                     isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-25"
                 }`}>
                     Star Power, an ISO 9001:2015 certified company and an extension of Star Export India, is a leader in providing Mechanical, Electrical, and Plumbing (MEP) solutions and Engineering, Procurement, and Construction (EPC) services. We specialize in delivering sustainable, cost-effective, and future-ready solutions for commercial, industrial, institutional, and infrastructure projects across India. Our expertise includes high-performance MEP installations and turnkey EPC contracting, ensuring we can cater to all your project needs
                 </p>
                 <a 
+                className='group'
                 href={''}>
                     <div
                     className={`transition-all duration-1200 ease-out w-[275px] h-[60px] bg-[#082F70] flex transform mt-[20px] ${
@@ -61,7 +62,7 @@ const InfoSection01 = () => {
                             className='text-white text-[18px] font-bold mr-[16px]'>
                                 MORE ABOUT US 
                             </p>
-                            <ArrowRight className='w-[30px] h-[30px] text-white font-semibold hover:rotate-[-24deg] duration-200'/>
+                            <ArrowRight className='w-[30px] h-[30px] text-white font-semibold group-hover:rotate-[-24deg] duration-100'/>
                         </div>
                     </div>
                 </a>

@@ -24,7 +24,7 @@ const ServiceSection = () => {
                 <div
                 className='w-[800px]'>
                     <h1
-                    className='text-[48px] font-semibold text-center translate-y-[-100px]'>
+                    className='text-[38px] font-semibold text-center translate-y-[-100px]'>
                         Our Services
                     </h1>
                 </div>
@@ -57,6 +57,7 @@ const ServiceSection = () => {
 
                 </div>
                 <a 
+                className='group'
                 href={''}>
                     <div
                     className='transition-all duration-1200 ease-out w-[275px] h-[60px] bg-[#082F70] flex transform mt-[20px] translate-y-[-140px]'>
@@ -66,7 +67,7 @@ const ServiceSection = () => {
                             className='text-white text-[15px] font-semibold mr-[16px]'>
                                 VIEW ALL SERVICES
                             </p>
-                            <ArrowRight className='w-[24px] h-[24px] text-white font-semibold hover:rotate-[-24deg] duration-200'/>
+                            <ArrowRight className='w-[24px] h-[24px] text-white font-semibold group-hover:rotate-[-24deg] duration-100'/>
                         </div>
                     </div>
                 </a>

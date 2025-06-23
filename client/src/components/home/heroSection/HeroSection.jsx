@@ -20,17 +20,17 @@ const HeroSection = () => {
                         Star Power - Raising The Industry Bar
                     </p>
                     <h1
-                    className='text-[46px] font-medium'>
+                    className='text-[38px] font-medium leading-tight'>
                         Innovative solutions, lasting results.
                     </h1>
                     <div
-                    className='w-[475px] h-[230px] bg-[#082F70] flex flex-col justify-center items-start p-[20px] mt-[43px] text-[22px] gap-[40px]'>
+                    className='w-[475px] h-[230px] bg-[#082F70] flex flex-col justify-center items-start p-[20px] mt-[43px] text-[22px] gap-[60px]'>
                         <p
                         className='font-light'>
                             Pillar of excellence in the construction industry for over three decades
                         </p>
                         <a 
-                        className='font-semibold'
+                        className='font-semibold text-[15px]'
                         href={''}>
                             LEARN MORE
                         </a>

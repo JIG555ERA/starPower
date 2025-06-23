@@ -17,11 +17,11 @@ const ContactForm = () => {
                 <div
                 className='text-white w-[800px] h-full'>
                     <h1
-                    className='text-[42px] font-semibold'>
+                    className='text-[38px] font-semibold'>
                         Stay in the loop.
                     </h1>
                     <p
-                    className='text-[18px] font-light pt-[15px]'>
+                    className='text-[18px] font-light pt-[15px] text-[#F7F7F7]'>
                         Keep up to date with new products, all the goss, and anything else you might have missed on twitter.
                     </p>
                 </div>

@@ -63,11 +63,14 @@ const Navbar = ({active='/'}) => {
                     </button>
 
                     {/* Logo */}
-                    <img
+                    <a 
+                    href="/">
+                        <img
                         src={starPowerLogo}
                         alt="Star Power Logo"
                         className="w-[110px] h-[60px]"
                     />
+                    </a>
                 </div>
 
                 {/* Navigation Links - visible on large screens */}

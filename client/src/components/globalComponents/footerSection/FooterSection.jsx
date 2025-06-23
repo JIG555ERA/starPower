@@ -30,7 +30,7 @@ const FooterSection = () => {
         <div
         className='w-full h-[500px] bg-[#0A142F]'>
             <div
-            className='w-[1250px] h-[350px] mx-auto grid grid-cols-4 gap-[12.5px] mt-[80px]'>
+            className='w-[1250px] h-[350px] mx-auto grid grid-cols-4 gap-[12.5px] pt-[80px]'>
                 <div
                 className='w-[300px] h-full flex flex-col '>
                     {/* logo */}
@@ -41,7 +41,7 @@ const FooterSection = () => {
                     className='text-[12px] text-white font-normal mt-[10px]'>
                         End to end expert MEP & EPC solutions
                     </p>
-                    <hr className='text-gray-400 mt-[40px]'/>
+                    <hr className='border-t border-[#D9D9D9] mt-[40px]'/>
 
                     <div
                     className='w-full h-[60px] flex mt-[40px]'>
@@ -111,12 +111,12 @@ const FooterSection = () => {
                 </div>
 
             </div>
-            <hr className='border-t border-[#D9D9D9] mx-[80px] translate-y-[-60px]'/>
+            <hr className='border-t border-[#D9D9D9] mx-[80px]'/>
             <div
-            className='flex justify-center items center mx-auto gap-[20px] pb-[50px]'>
-                <FaFacebookF className='w-[25px] h-[25px] text-white'/>
-                <FaInstagram className='w-[25px] h-[25px] text-white'/>
-                <FaLinkedinIn className='w-[25px] h-[25px] text-white'/>
+            className='flex justify-center items center mx-auto gap-[20px] py-[50px]'>
+                <FaFacebookF className='w-[20px] h-[20px] text-white'/>
+                <FaInstagram className='w-[20px] h-[20px] text-white'/>
+                <FaLinkedinIn className='w-[20px] h-[20px] text-white'/>
             </div>
         
         </div>

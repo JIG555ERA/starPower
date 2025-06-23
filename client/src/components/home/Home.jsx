@@ -7,13 +7,13 @@ import SectorsServiceSection from './sectorsServiceSection/SectorsServiceSection
 import BlogsSection from './blogsSection/BlogsSection';
 import CustomerTestimonialsSection from './customerTestimonialsSection/CustomerTestimonialsSection';
 import Contact from '../contact/Contact';
-import FooterSection from './footerSection/FooterSection';
+import FooterSection from '../globalComponents/footerSection/FooterSection';
 
 const Home = () => {
   return (
     <div 
     className='w-full flex flex-col justify-center bg-white mx-auto font-[Poppins]'>
-        <Navbar />
+        <Navbar active='/'/>
         <HeroSection />
         <InfoSection01 />
         <ServiceSection />

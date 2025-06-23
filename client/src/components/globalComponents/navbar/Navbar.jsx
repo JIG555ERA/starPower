@@ -7,9 +7,9 @@ import menuRightArrowIcon from '../../../assets/icons/menuRightArrowIcon.svg'
 import menuDownArrowIcon from '../../../assets/icons/menuDownArrowIcon.svg'
 
 
-const Navbar = ({active='home'}) => {
+const Navbar = ({active='/'}) => {
     const navItems = [
-        { id: 'home', page: 'Home', link: '/home' },
+        { id: 'home', page: 'Home', link: '/' },
         { id: 'about', page: 'About', link: '/about' },
         { id: 'services', page: 'Services', link: '/services' },
         { id: 'projects', page: 'Projects', link: '/projects' },
@@ -18,7 +18,7 @@ const Navbar = ({active='home'}) => {
     ];
 
     const menuItems = [
-        { id: 'home', page: 'Home', link: '/home' },
+        { id: 'home', page: 'Home', link: '/' },
         { id: 'about', page: 'About', link: '/about' },
         {
         id: 'services',

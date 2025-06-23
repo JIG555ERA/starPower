@@ -7,6 +7,7 @@ import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
+import GreenHydrogen from './components/greenHydrogen/GreenHydrogen'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Route path='/projects' element={<Projects />}></Route>
       <Route path='/blog' element={<Blog />}></Route>
       <Route path='/contact' element={<Contact />}></Route>
+      <Route path='/greenHydrogen' element={<GreenHydrogen />}></Route>
     </Routes>
   )
 }

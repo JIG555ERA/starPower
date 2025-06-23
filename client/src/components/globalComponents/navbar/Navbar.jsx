@@ -138,7 +138,7 @@ const Navbar = ({active=''}) => {
                             setActivePage(item.id);
                             toggleMenu(); // Close menu
                             }}
-                            className={`relative flex items-center text-white text-[16px] font-medium px-[40px] hover:text-gray-300 transition  py-2 rounded-md ${
+                            className={`relative flex items-center text-white text-[16px] font-medium px-[40px] hover:text-gray-300 transition  py-2 ${
                             activePage === item.id ? 'bg-white/30' : ''
                             }`}
                         >
@@ -151,7 +151,7 @@ const Navbar = ({active=''}) => {
                         <div key={item.id}>
                             <div
                             onClick={toggleServices}
-                            className="flex justify-between items-center px-[40px] text-white text-[16px] font-medium cursor-pointer py-2 rounded-md"
+                            className="flex justify-between items-center px-[40px] text-white text-[16px] font-medium cursor-pointer py-2 "
                             >
                             {item.page}
                             {isServicesOpen ? (
@@ -173,7 +173,7 @@ const Navbar = ({active=''}) => {
                                     setActivePage(sub.id);
                                     toggleMenu();
                                     }}
-                                    className={`relative flex items-center text-white text-sm hover:text-gray-300 px-[40px] py-2 rounded-md ${
+                                    className={`relative flex items-center text-white text-sm hover:text-gray-300 px-[40px] py-2  ${
                                     activePage === sub.id ? 'bg-white/30' : ''
                                     }`}
                                 >

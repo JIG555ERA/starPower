@@ -14,7 +14,7 @@ const BlogsSection = () => {
 
     return (
         <div
-        className='w-[1440px] mx-auto h-screen gap-[80px] flex flex-col justify-center text-[#121212] my-10'>
+        className='w-[1440px] mx-auto h-screen gap-[80px] flex flex-col justify-center text-[#121212] mb-[80px]'>
             <div
             className='flex justify-center'>
                 <h1

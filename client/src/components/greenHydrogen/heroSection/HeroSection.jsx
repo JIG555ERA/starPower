@@ -20,7 +20,7 @@ const HeroSection = () => {
                         Star Power - Raising The Industry Bar
                     </p>
                     <h1
-                    className='text-[46px] font-medium'>
+                    className='text-[38px] font-medium'>
                         Green Hydrogen
                     </h1>
                 </div>

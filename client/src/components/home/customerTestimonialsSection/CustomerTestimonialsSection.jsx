@@ -14,7 +14,7 @@ const responsive = {
 const CustomLeftArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 p-2 bg-white rounded-full hover:scale-105 transition"
+    className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 p-2  rounded-full hover:scale-105 transition"
   >
     {/* <ArrowLeft className="w-6 h-6 text-gray-800" /> */}
     <img src={leftArrowIcon} alt="" />
@@ -24,7 +24,7 @@ const CustomLeftArrow = ({ onClick }) => (
 const CustomRightArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 p-2 bg-white rounded-full hover:scale-105 transition"
+    className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 p-2  rounded-full hover:scale-105 transition"
   >
     {/* <ArrowRight className="w-6 h-6 text-gray-800" /> */}
     <img src={rightArrowIcon} alt="" />
@@ -40,7 +40,7 @@ const CustomerTestimonialsSection = ({ deviceType = "desktop" }) => {
   ];
 
   return (
-    <section className="w-full px-4 md:px-12 lg:px-20 my-20 text-[#121212]">
+    <section className="w-full px-4 md:px-12 lg:px-20 my-20 text-[#121212] lg:mt-[200px]">
       {/* Section Title */}
       <div className="text-center mb-12">
         <h1 className="text-[38px] font-semibold">

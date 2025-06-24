@@ -49,14 +49,14 @@ const Navbar = ({active=''}) => {
     };
 
     return (
-        <header className="bg-white shadow-md fixed w-full top-0 z-50">
+        <header className="bg-white shadow-md fixed w-full top-0 z-50 px-4">
             <div className="max-w-[1440px] mx-auto py-4 flex justify-between items-center">
                 
                 {/* Left Side: Logo & Hamburger */}
                 <div className="flex items-center gap-4">
                     {/* Hamburger - visible on small screens */}
                     <button
-                        className="p-1 border-2 border-red-400 rounded-md mr-[60px]"
+                        className="p-1 border-2 border-red-400 rounded-md lg:mr-[60px]"
                         onClick={handleMenuBar}
                     >
                         <Menu className="w-6 h-6 text-black" />
@@ -110,24 +110,6 @@ const Navbar = ({active=''}) => {
                     scrollbarWidth: 'none',         
                     msOverflowStyle: 'none',        
                 }}>
-                    {/* <nav className="flex flex-col space-y-4 mt-4">
-                    {menuItems.map((item) => (
-                        <a
-                        key={item.id}
-                        href={item.link}
-                        onClick={() => {
-                            setActivePage(item.id);   // update active page
-                            setActive(false);         // close menu
-                        }}
-                        className={`text-white text-[16px] font-medium hover:text-blue-600 transition px-3 py-2 ${
-                            activePage === item.id ? 'bg-white/30' : ''
-                        }`}
-                        >
-                        <span className='w-4 h-fit bg-white'></span>
-                        {item.page}
-                        </a>
-                    ))}
-                    </nav> */}
                     <nav className="flex flex-col space-y-4">
                     {menuItems.map((item) =>
                         !item.subItems ? (

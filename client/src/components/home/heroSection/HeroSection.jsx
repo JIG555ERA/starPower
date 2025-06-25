@@ -15,16 +15,16 @@ const HeroSection = () => {
       <div className="absolute z-20 w-full max-w-[975px] h-auto lg:h-[430px] px-4 sm:px-6 md:px-10 lg:px-0 lg:grid grid-cols-2 overflow-hidden top-[calc(100%-430px)]">
         
         {/* Left Side Content */}
-        <div className="text-white flex flex-col justify-between gap-4">
-          <p className="text-[12px] lg:text-[12px] font-normal">
+        <div className="text-white flex flex-col justify-between gap-4 lg:mt-[0px] mt-[138px]">
+          <p className="text-[12px] lg:text-[12px] font-normal lg:mb-[0px] mb-[16px]">
             Star Power - Raising The Industry Bar
           </p>
 
-          <h1 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[38px] font-medium leading-tight">
+          <h1 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[38px] font-medium leading-tight lg:mb-[0px] mb-[40px]">
             Innovative solutions, lasting results.
           </h1>
 
-          <div className="w-full sm:w-[90%] md:w-[475px] h-auto lg:h-[230px] bg-[#082F70] flex flex-col justify-center items-start p-4 lg:p-[20px] mt-4 lg:mt-[43px] text-[16px] sm:text-[18px] gap-6 lg:gap-[60px]">
+          <div className="w-full sm:w-[90%] md:w-[475px] h-auto lg:h-[230px] bg-[#082F70] flex flex-col justify-center items-start p-4 lg:p-[20px] lg:mt-[43px] text-[16px] sm:text-[18px] gap-6 lg:gap-[60px]">
             <p className="font-light lg:text-[22px]">
               Pillar of excellence in the construction industry for over three decades
             </p>

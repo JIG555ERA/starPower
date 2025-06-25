@@ -30,7 +30,7 @@ const BlogsSection = () => {
   ];
 
   return (
-    <div className="w-full lg:h-[500px] max-w-[1440px] mx-auto px-4 gap-[80px] flex flex-col justify-center text-[#121212] ">
+    <div className="w-full lg:h-[500px] max-w-[1440px] mx-auto px-4 gap-[80px] flex flex-col justify-center text-[#121212] lg:mt-[0px] mt-[40px]">
       {/* Heading */}
       <div className="flex justify-center">
         <h1 className="text-[38px] font-semibold">Blogs</h1>

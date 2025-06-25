@@ -22,17 +22,17 @@ const ContactForm = () => {
 
                 {/* Right side - input + button */}
                 <div className='w-full lg:w-[500px] h-auto flex flex-col mt-6 lg:ml-[150px] lg:mt-[25px]'>
-                    <div className='w-full h-[70px] flex flex-col sm:flex-row justify-between gap-4'>
+                    <div className='w-full lg:h-[50px] h-[100px] flex flex-col sm:flex-row justify-between gap-4'>
                         <input
                             onChange={(e) => setEmail(e.target.value)}
-                            className='w-full sm:w-[390px] h-[70px] bg-white px-[15px] text-[16px] text-[#121212] rounded-md font-normal'
+                            className='w-full sm:w-[390px] lg:h-[50px] h-[100px] bg-white px-[15px] text-[16px] text-[#121212] rounded-md font-normal'
                             placeholder='Enter your email'
                             type='email'
                             value={email}
                         />
                         <button
                             onClick={handleSubmit}
-                            className='w-full sm:w-[100px] h-[70px] lg:h-[50px] bg-[#F7F7F7] text-center text-[#121212] font-light rounded-md'
+                            className='w-full sm:w-[100px] lg:h-[50px] h-[100px] bg-[#F7F7F7] text-center text-[#121212] font-light rounded-md'
                         >
                             Sign UP
                         </button>
